@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Tables and Forms</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+
+    <header>
+     <h1>Tables and Forms</h1>
+    </header>
+
+    <section>
+      <h2>Tables</h2>
+   
+
+     <table>
+      <caption>Top 3 favorites things</caption>
+      <tr>
+        <th colspan="3">Top Favorites</th>
+      </tr>
+      <tr>
+        <th>Food</th>
+        <th>Activities</th>
+        <th>Musicians</th>
+      </tr>
+
+      <tr>
+        <td>Pho</td>
+        <td>Video Gaming</td>
+        <td>Pink Panther</td>
+      </tr>
+
+      <tr>
+        <td>Rice</td>
+        <td>Chat with friends</td>
+        <td>Melanie Martineze</td>
+      </tr>
+
+      <tr>
+        <td>Seaweed</td>
+        <td>Media consuming</td>
+        <td>Lana Delray</td>
+      </tr>
+
+      <tr>
+        <td colspan="2">Combines 2 rows</td> 
+        <td rowspan="2">Combines 2 col</td>
+      </tr>
+
+      <tr>
+       <td>Empty</td>
+      </tr>
+
+      <tr>
+        <td>example</td>
+        <td>example</td>
+        <td></td>
+      </tr>
+
+     </table>
+
+    </section>
+
+
+
+
+
+    <section>
+
+      <h2>Forms</h2>
+
+      <form>
+        <fieldset>
+          <legend>Basic Forms</legend>
+         <lable for="name">Name</label> <br>
+         <input placeholder="Enter your name" type="text" id="name" required/>
+
+        <br>
+        <br>
+
+         <lable for="age">Age</label> <br>
+         <input placeholder="Enter your age" type="text" id="age" />
+
+        <br>
+        <br>
+
+         <lable for="password">Password</label> <br>
+         <input placeholder="Enter your password" type="password" id="password" required/> 
+
+
+
+         </fieldset>
+
+        <br>
+        <br>
+        
+
+
+
+
+         <p>Pick your 2 forvorite meals:</p>
+
+         <fieldset>
+           <legend>Check and Radio Boxes</legend>
+
+           <input type="checkbox" id="breakfast" name="meal"  value="breakfast" />
+           <lable for="breakfast">breakfast</label> <br>
+
+
+           <input type="checkbox" id="lunch" name="meal" value="lunch" />
+           <lable for="lunch">lunch</label> <br>
+
+
+           <input type="checkbox" id="dinner" name="meal" value="dinner" />
+           <lable for="dinner">dinner</label> <br>
+
+
+
+
+
+         <p>Pick your 2 forvorite meals:</p>
+
+           <input type="radio" id="html" name="langlist" value="html" />
+           <lable for="html">html</label> <br>
+
+           <input type="radio" id="css" name="langlist" value="css" />
+           <lable for="css">css</label> <br>
+
+            <input type="radio" id="js" name="langlist" value="js" />
+           <lable for="js">js</label> <br>
+
+
+         </fieldset>
+
+
+        <br>
+
+
+        <fieldset>
+          <legend>Basic Forms</legend>
+         <lable for="email">Email</label> <br>
+         <input placeholder="Enter your email" type="email" id="email" />
+        </fieldset>
+
+        <br>
+        <br>
+       <fieldset>
+         <legend>Month Picker</legend>
+         <lable for="month">Month picker</label> <br>
+         <input type="month" id="month" />
+         </fieldset>
+        <br>
+        <br>
+           <fieldset>
+          <legend>Slide, Meter, Rating</legend>
+         <label for="range">Range (slider)</label> <br>
+         <input type="range" id="range" name="range" min="0" max="100" value"25" />
+
+        <br>
+
+         <label for="meter">Meter (no slider)</label> <br>
+         <meter id="meter" name="meter" min="0" max="100" value="25"> 25 out of 100</meter>
+        <br>
+
+         <label for="rating">Rating</label> <br>
+         <input type="number" id="rating" name="rating" min="0" max="10" step="1" value"5" />
+         </fieldset>
+        <br>
+          <fieldset>
+          <legend>Drop Down Box</legend>
+
+         <label for="superpower">Superpower</label> <br>
+           <select id="super" name="super">
+             <option value="blank">--Please select from the list below--</option>
+             <option value="mind">Mind Reading</option>
+             <option value="fly">Fly</option>
+             <option value="invisable">Invisabiltiy</option>
+             <option value="strength">Super Strength</option>
+             <option value="Time">Time Travel</option>
+           </select>
+           </fieldset>
+
+         <figure>
+           <img src="https://imgr.search.brave.com/kboJuqjB4DjfzOFlq30Hm8-SmHrE44c2ufNa1JRzxDE/fit/474/225/ce/1/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5N/V0N2aDl0LWdyWXJq/dmEyUEI2aXhnSGFI/YSZwaWQ9QXBp" alt="Happy holidays"/>
+           <figcaption> Happy Holidays </figcaption>
+         </figure>
+        <br>
+        <br>
+        <br>
+        <input type="submit" value="SUBMIT" />
+      </form>
+
+    </section>
+  </body>
+</html>

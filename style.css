@@ -1,0 +1,16 @@
+table, th, td{
+  border:2px solid rgb(130, 177, 145);
+  border-collapse: sepearte;
+}
+
+td{
+  empty-cells: hide;
+}
+
+
+
+table{
+  text-align:center;
+  margin:auto;
+}
+
